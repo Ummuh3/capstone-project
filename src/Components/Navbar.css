@@ -1,0 +1,38 @@
+.navbar-header {
+  width: 80%;
+  min-height: 100px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 8%;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.navbar-header h1 {
+  color: #172f50;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.navbar-header h1 span {
+  color: #3989d4;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.navbar Link {
+  text-decoration: none;
+  color: #27364b;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #3989d4;
+}
